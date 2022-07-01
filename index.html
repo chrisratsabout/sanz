@@ -1,73 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dr. Miguel Sanz Jiménez</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <a class="navbar-brand" href="#top-section">Miguel Sanz Jiménez</a>
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#about-section">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about-section">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#translation-section">Book Translations</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#education-section">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact-section">Contact</a>
+                </li>
 
-    <div class="profile">
-        <h1>Dr. Miguel Sanz Jiménez</h1>
-        <img class="profile-picture" src="miguel.JPG" alt="profile-pic">
-    </div>
-    
-    <div class="about">
-        <h2>About</h2>
-        <p>Hi there! My name is Miguel Sanz-Jiménez and I graduated in English Studies (First Class Honors) at Complutense University of Madrid (UCM). After that, I got a scholarship to study Contemporary American Literature at Loyola University Chicago and then I worked as a Culture and Language Assistant in West Liberty, Iowa, taking part in the Ministry of Education’s program. Meanwhile, I also taught English as a Second Language to adults in Muscatine Community College.</p><br>
-        <p>Back in Spain, I went to grad school, worked as an intern at UCM's Department of English Language & Linguistics, and I got an MA in Literary Translation. Now I am pursuing my PhD in English Linguistics. My dissertation deals with the translation of dialect features in literature and the ideological implications of translators’ strategies in the way characters with marked speeches are portrayed, particularly in the case of American slave narratives. Thus, it could be said my main areas of research are Translation Studies and Contrastive Linguistics.</p>
-    </div>
+            </ul>
 
-    <div class="translation">
-        <h2>Book Translations</h2>
-
-        <div class="books">
-        <div class="book1 book-int">
-            <img class="book-pic" src="pajaro-carpintero.jpeg" alt="pajaro-carpintero">
-            <h3>El pájaro carptinero</h3>
-            <h4>James McBride</h4>
         </div>
+    </nav>
 
-        <div class="book2 book-int">
-            <img class="book-pic" src="no-mires.jpeg" alt="no-mires">
-            <h3>No mires ahora y otros relatos</h3>
-            <h4>Daphne DuMaurier</h4>
+    <section id="top-section">
+        <div class="profile">
+            <h1>Dr. Miguel Sanz Jiménez</h1>
+            <img class="profile-picture" src="miguel.JPG" alt="profile-pic">
         </div>
-
-        <div class="book3 book-int">
-            <img class="book-pic" src="democracy.jpeg" alt="democracy-now">
-            <h3>Democracy Now!</h3>
-            <h4>Amy Goodman</h4>
+    </section>
+    <section id="about-section">
+        <div class="about">
+            <h2>About</h2>
+            <p>Hi there! My name is Miguel Sanz-Jiménez and I graduated in English Studies (First Class Honors) at
+                Complutense University of Madrid (UCM). After that, I got a scholarship to study Contemporary American
+                Literature at Loyola University Chicago and then I worked as a Culture and Language Assistant in West
+                Liberty, Iowa, taking part in the Ministry of Education’s program. Meanwhile, I also taught English as a
+                Second Language to adults in Muscatine Community College.</p><br>
+            <p>Back in Spain, I went to grad school, worked as an intern at UCM's Department of English Language &
+                Linguistics, and I got an MA in Literary Translation. Now I am pursuing my PhD in English Linguistics.
+                My dissertation deals with the translation of dialect features in literature and the ideological
+                implications of translators’ strategies in the way characters with marked speeches are portrayed,
+                particularly in the case of American slave narratives. Thus, it could be said my main areas of research
+                are Translation Studies and Contrastive Linguistics.</p>
         </div>
+    </section>
 
-        <div class="book4 book-int">
-            <img class="book-pic" src="memorias.jpeg" alt="memorias">
-            <h3>John Barleycorn: Memorias de un alcohólico</h3>
-            <h4>Jack London</h4>
+    <section id="translation-section">
+        <div class="translation">
+            <h2>Book Translations</h2>
+
+            <div class="books">
+                <div class="book1 book-int">
+                    <a href="https://www.hojadelata.net/tienda/el-pajaro-carpintero/"><img class="book-pic" src="pajaro-carpintero.jpeg" alt="pajaro-carpintero"></a>
+                    <h3>El pájaro carptinero</h3>
+                    <h4>James McBride</h4>
+                </div>
+
+                <div class="book2 book-int">
+                    <a href="https://labibliotecadecarfax.com/producto/no-mires-ahora-y-otros-relatos/"><img class="book-pic" src="no-mires.jpeg" alt="no-mires"></a>
+                    <h3>No mires ahora y otros relatos</h3>
+                    <h4>Daphne DuMaurier</h4>
+                </div>
+
+                <div class="book3 book-int">
+                    <a href="https://www.hojadelata.net/tienda/democracy-now/"><img class="book-pic" src="democracy.jpeg" alt="democracy-now"></a>
+                    <h3>Democracy Now!</h3>
+                    <h4>Amy Goodman</h4>
+                </div>
+
+                <div class="book4 book-int">
+                    <a href="https://www.guillermoescolareditor.com/libro/john-barleycorn_124280/"><img class="book-pic" src="memorias.jpeg" alt="memorias"></a>
+                    <h3>John Barleycorn: Memorias de un alcohólico</h3>
+                    <h4>Jack London</h4>
+                </div>
+
+                <div class="book5 book-int">
+                    <a href="https://www.casadellibro.com/libro-maldito-asfalto/9788418711381/12731052"><img class="book-pic" src="maldito-asfalto.png" alt="maldito-asfalto"></a>
+                    <h3>Maldito asfalto</h3>
+                    <h4>S.A. Cosby</h4>
+                </div>
+            </div>
+
         </div>
+    </section>
 
-        <div class="book5 book-int">
-            <img class="book-pic" src="maldito-asfalto.png" alt="maldito-asfalto">
-            <h3>Maldito asfalto</h3>
-            <h4>S.A. Cosby</h4>
+    <section id="education-section">
+        <div class="education">
+            <h2>Education</h2>
+            <div class="education-block">
+                <img class="uni" src="udima.jpeg" alt="udima">
+                <img class="uni" src="loyola.jpeg" alt="loyola">
+                <img class="uni" src="queens.png" alt="queens">
+                <img class="uni" src="complutense.png" alt="complutense">
+            </div>
         </div>
-    </div>
-        
-    </div>
-
-<div class="education">
-    <h2>Education</h2>
-    <div class="education-block">
-<img class="uni" src="udima.jpeg" alt="udima">
-<img class="uni" src="loyola.jpeg" alt="loyola">
-<img class="uni" src="queens.png" alt="queens">
-<img class="uni" src="complutense.png" alt="complutense">
-</div>
-</div>
+    </section>
 
 
-    
 </body>
+
 </html>
