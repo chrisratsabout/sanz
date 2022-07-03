@@ -17,14 +17,14 @@ h3 {
 }
 
 .profile, .translation, #contact-section {
-    background-color: gray;
+    background-color: rgb(155, 155, 155);
     color: white;
     margin: 0;
 }
 
 .profile-picture {
-    width: 300px;
-    height: 400px;
+    width: 400px;
+    border-radius: 50%;
     padding-bottom: 40px;
 
 
