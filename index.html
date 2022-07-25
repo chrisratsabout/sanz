@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dr. Miguel Sanz Jiménez</title>
     <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <script src="https://kit.fontawesome.com/8efc22d7af.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
@@ -97,36 +98,51 @@
             <h2>Translations</h2>
             <h3>- Books -</h3>
             <div class="books">
-                        
+                
+                <div class="book5 book-int">
+                    <a id="bookLink" href="https://www.trinivergaraediciones.com/Thriller+++Novela+Negra/Crimen+y+misterio++Novela+negra/Maldito+asfalto/2203ES"
+                        target="_blank"><img class="book-pic" id="bookCover" src="maldito-asfalto.png" alt="maldito-asfalto"></a>
+                    <h3 id="newTitle">Maldito asfalto</h3>
+                    <h4 id="newAuthor">S.A. Cosby</h4>
+                </div>
+                
+
+                <div class="button-container">
+                    <button class="prev arrow btn btn-primary btn-lg"><i class="fa-solid fa-chevron-left"></i></button>
+                    <button class="next arrow btn btn-primary btn-lg"><i class="fa-solid fa-chevron-right"></i></button>
+                </div>
+            </div>
+            <!--<div class="books">
+
                 <div class="book5 book-int">
                     <a href="https://www.trinivergaraediciones.com/Thriller+++Novela+Negra/Crimen+y+misterio++Novela+negra/Maldito+asfalto/2203ES"
                         target="_blank"><img class="book-pic" src="maldito-asfalto.png" alt="maldito-asfalto"></a>
                     <h3>Maldito asfalto</h3>
                     <h4>S.A. Cosby</h4>
-                </div>        
-                
-                
+                </div>
+
+
                 <div class="book4 book-int">
                     <a href="https://www.guillermoescolareditor.com/libro/john-barleycorn_124280/" target="_blank"><img
                             class="book-pic" src="memorias.jpeg" alt="memorias"></a>
                     <h3>John Barleycorn: Memorias de un alcohólico</h3>
                     <h4>Jack London</h4>
-                </div>                
-                
+                </div>
+
                 <div class="book3 book-int">
                     <a href="https://www.hojadelata.net/tienda/democracy-now/" target="_blank"><img class="book-pic"
                             src="democracy.jpeg" alt="democracy-now"></a>
                     <h3>Democracy Now!</h3>
                     <h4>Amy Goodman</h4>
-                </div>                
-                
-               <div class="book2 book-int">
+                </div>
+
+                <div class="book2 book-int">
                     <a href="https://labibliotecadecarfax.com/producto/no-mires-ahora-y-otros-relatos/"
                         target="_blank"><img class="book-pic" src="no-mires.jpeg" alt="no-mires"></a>
                     <h3>No mires ahora y otros relatos</h3>
                     <h4>Daphne DuMaurier</h4>
                 </div>
-                
+
                 <div class="book1 book-int">
                     <a href="https://www.hojadelata.net/tienda/el-pajaro-carpintero/" target="_blank"><img
                             class="book-pic" src="pajaro-carpintero.jpeg" alt="pajaro-carpintero"></a>
@@ -135,9 +151,11 @@
                 </div>
 
             </div>
+        -->
             <h3>- Interviews -</h3>
             <p>Hellpress.com - a Heavy Metal and Hard Rock news website</p>
-            <a href="https://www.hellpress.com/?s=miguel+sanz+jim%C3%A9nez" target="_blank"><img class="interview-pic" src="hellpress.png" alt="hellpress"></a>
+            <a href="https://www.hellpress.com/?s=miguel+sanz+jim%C3%A9nez" target="_blank"><img class="interview-pic"
+                    src="hellpress.png" alt="hellpress"></a>
 
         </div>
     </section>
@@ -165,13 +183,14 @@
                 <!-- Name input -->
                 <div class="mb-3">
                     <label class="form-label" for="name">Name</label>
-                    <input class="form-control" id="name" type="text" name="Name" placeholder="Name" required/>
+                    <input class="form-control" id="name" type="text" name="Name" placeholder="Name" required />
                 </div>
 
                 <!-- Email address input -->
                 <div class="mb-3">
                     <label class="form-label" for="emailAddress">Email Address</label>
-                    <input class="form-control" id="emailAddress" type="email" name="Email" placeholder="Email Address" required/>
+                    <input class="form-control" id="emailAddress" type="email" name="Email" placeholder="Email Address"
+                        required />
                 </div>
 
                 <!-- Message input -->
@@ -185,7 +204,7 @@
                 <div class="d-grid">
                     <button class="btn btn-primary btn-lg" type="submit">Submit</button>
                 </div>
-                
+
                 <input type="hidden" name="_next" value="https://chrisratsabout.github.io/thanks">
 
             </form>
@@ -193,7 +212,7 @@
         </div>
     </section>
 
-
+<script src="app.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
